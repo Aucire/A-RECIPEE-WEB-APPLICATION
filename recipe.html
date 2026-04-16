@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Recipe Search Application</title>
+    <link rel="stylesheet" href="recipe.css">
+    <style>
+        /* Import fonts from google fonts.com */
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
+        /* Universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;  
+        }
+        body{
+            background-color: #0d0d0d;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.05) 2px, transparent 5px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.05) 2px, transparent 1px);
+            background-size: 70px 70px;
+            min-height: 200vh;
+        }
+        footer{
+            font-family: "Playwrite IE", cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Heading of our page -->
+    <header>A RECIPE SEARCH APPLICATION</header>
+    <main>
+        <!-- CARD 1 FOR DISPLAYING NAVIGATION & SEARCH BARs AND MEAL NAME -->
+        <div class="card1">
+            <!-- The navigation bar of our page -->
+            <nav class="navbar">
+                <div style="display:flex;align-items: center;gap: 5px;">
+                    <div class="material-icons">home</div>
+                    <div>Profile</div>
+                </div>
+                <div class="navs">
+                    <div>Featured</div>
+                    <div>About</div>
+                    <div>Join</div>
+                </div>
+            </nav>
+            <!-- THE SEARCH BAR OF OUR WEB APPLICATION -->
+            <form>
+                <input type="text" class="input" type="text" placeholder="search recipe">
+                <button id="btn"><span class="material-icons">search</span></button>
+            </form>
+            <div id="error"></div>
+            <div class="name">
+                <section id="mealName"></section>
+            </div>
+        </div>
+
+        <!-- CARD 2 FOR DISPLAYING THE INGREDIENTS -->
+        <div class="card2">
+            <h1 class="topic">FOOD INGREDIENTS</h1>
+            <ol type="1" id="ingredients"></ol>
+        </div>
+
+        <!-- CARD 3 FOR DISPLAYING COOKING INSTRUCTIONS -->
+        <div class="card3">
+                <h1 class="topic">COOKING INSTRUCTIONS</h1>
+                <div id="instructions"></div>
+        </div>
+    </main>
+
+    <!-- Javascript file -->
+    <script src="recipe.js"></script>
+
+    <!-- FOOTER FOR OUR PAGE -->
+    <footer>
+        <h1 style="color:var(--textcolor);">Recipe.Application</h1>
+        <p>Telephone:  +353 3464674</p>
+        <p>Email:  recipee.app@gmail.com</p>
+        <p>Website:  https/recipee/app/sercj/01</p>
+        <h4>&copy;2026 Recipe.app</h4>
+    </footer>
+</body>
+
+</html>
+<!-- The end -->
