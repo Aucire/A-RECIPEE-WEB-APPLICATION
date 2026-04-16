@@ -94,8 +94,9 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 
 ## 🖼️ Screenshot
 
-> ![App Screenshot](projectscreenshot.png)
+> ![App Screenshot](screenshot.png)
 > ![App Screenshot](screenshot2.png)
+> ![App Screenshot](screenshot3.png)
 
 ```
 ![App Screenshot](screenshot.png)
