@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 :root{
     --charc:#2b2b2b;
     --yellow: #be4f13;
@@ -12,6 +12,7 @@
     --black: black;
     --font-topic: "Sirin Stencil", sans-serif;
     --font-text: "Courgette", cursive;
+    --navfont: "Abril Fatface", serif;
 }
 
 /* Styling the icons from the google fonts */
@@ -64,10 +65,11 @@ header{
     align-items: center;
     justify-content: space-between;
     margin: 20px 20px;
-    font-family: var(--font-text);
+    font-family: var(--navfont);
     font-weight: 800;
     font-size: 25px;
-    color: #be4f13;
+    color: blue;
+    text-shadow: 2px 1px var(--yellow);
 }
 .navs{
     display: flex;
