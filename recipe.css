@@ -16,7 +16,7 @@
 
 /* Styling the icons from the google fonts */
 .material-icons {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     color: var(--textcolor);
     /* padding-top: 5px; */
@@ -34,6 +34,7 @@ main{
     min-height: 50vh;
     width: 70%;
     border: none;
+    outline: none;
     margin: 30px auto;
     border-radius: 8px;
     box-shadow: 10px 10px 10px#be4f13;
@@ -135,6 +136,7 @@ form input{
     color: var(--yellow);
     font-weight: 800;
     font-size: 40px;
+    text-shadow: 2px 2px 1px var(--textcolor);
     font-family: var(--font-text);
 }
 /* An ordered list of all the Ingredients */
@@ -163,6 +165,7 @@ form input{
     height: auto;
     font-weight: 800;
     font-size: 40px;
+    text-shadow: 2px 2px 1px var(--textcolor);
     font-family: var(--font-text);
 }
 .card2 div,.card3 div{
