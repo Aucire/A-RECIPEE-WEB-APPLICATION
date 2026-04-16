@@ -73,7 +73,7 @@ async function getRecipe(foodName) {
     }
     //The catch for returning errors
     catch(err) {
-        document.getElementById('error').innerHTML = "Error occurred...!reload & try again";
+        document.getElementById('error').innerHTML = "Error occurred with your connection...!";
         console.error(err);
     }
 
