@@ -82,11 +82,12 @@ form{
     margin: 50px 20px;
     width: 400px;
     border-radius: 8px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.9);
 }
 /* Submit button */
 button{
     background: transparent;
+    background-size: cover;
     padding: 2px 5px;
     border-radius: 1px;
     border: none;
