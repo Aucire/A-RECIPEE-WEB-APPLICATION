@@ -99,7 +99,7 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 > ![App Screenshot](screenshot3.png)
 
 ```
-![App Screenshot](screenshot.png)
+### MY PROJECT SCREENSHOTS
 ```
 
 ---
