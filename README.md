@@ -1,20 +1,20 @@
-# 🍽️ RECIPE WEB APPLICATION
+# RECIPE WEB APPLICATION
 
 A simple and clean web application that allows users to search for meals and instantly get **ingredients** and **cooking instructions** powered by [TheMealDB API](https://www.themealdb.com/).
 
 ---
 
-## 🔥 Features
+## Features
 
-- 🔍 Search any meal by name
-- 📋 Displays full list of ingredients with measurements
-- 📖 Step-by-step cooking instructions
-- ⚠️ Error handling for invalid or empty searches
-- 🧹 Clears previous results on every new search
+-  Search any meal by name
+-  Displays full list of ingredients with measurements
+-  Step-by-step cooking instructions
+-  Error handling for invalid or empty searches
+-  Clears previous results on every new search
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **HTML** — Page structure
 - **CSS** — Styling and layout
@@ -23,7 +23,7 @@ A simple and clean web application that allows users to search for meals and ins
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 recipe-app/
@@ -35,7 +35,7 @@ recipe-app/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 No installations or dependencies needed. Just open the project locally.
 
@@ -57,7 +57,7 @@ Or simply double-click `index.html` to open it in your browser.
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 This app uses the free [TheMealDB API](https://www.themealdb.com/api.php).
 
@@ -82,7 +82,7 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 1. User types a meal name in the search bar
 2. On button click, a `fetch()` request is sent to TheMealDB API
@@ -92,7 +92,7 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 
 ---
 
-## 🖼️ Screenshot
+## Screenshot
 
 > ![App Screenshot](screenshot.png)
 > ![App Screenshot](screenshot2.png)
@@ -104,7 +104,7 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - Search is name-based only (no filter by ingredient or category)
 - Displays all matched meals — no pagination yet
@@ -112,7 +112,7 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 
 ---
 
-## 🛣️ Future Improvements
+## Future Improvements
 
 - [ ] Add meal category filter
 - [ ] Add a favorites / saved recipes feature
@@ -122,13 +122,13 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - [TheMealDB](https://www.themealdb.com/) for the free meals API
 
