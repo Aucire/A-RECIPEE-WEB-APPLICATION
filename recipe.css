@@ -160,7 +160,7 @@ form input{
     color:rgb(219, 219, 219);
     font-weight: 800;
     font-size: 25px;
-    text-shadow: 2px 2px 1px #a74916 ;
+    text-shadow: 1px 1px 1px #a74916 ;
     font-family: var(--font-text);
 }
 /* An ordered list of all the Ingredients */
