@@ -76,6 +76,14 @@ header{
     align-items: center;
     gap: 40px;
 }
+a{
+    text-decoration: none;
+    transition: 0.2s;
+}
+a:hover{
+    transform: scale(1.07);
+    color: rgb(67, 67, 241);
+}
 /* Search bar */
 form{
     display: flex;
@@ -85,6 +93,9 @@ form{
     width: 400px;
     border-radius: 8px;
     border-bottom: 5px solid rgba(255, 255, 255, 0.9);
+}
+form:hover{
+    transform:scaleY(1.08);
 }
 /* Submit button */
 button{
@@ -101,7 +112,7 @@ button .material-icons{
 button .material-icons:hover{
     color: var(--yellow);
     transform: scale(1.2);
-
+    cursor: pointer;
     transition: 0.2s ease-out;
 }
 /* Search input */

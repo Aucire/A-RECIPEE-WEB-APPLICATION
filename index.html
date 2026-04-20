@@ -45,12 +45,12 @@
             <nav class="navbar">
                 <div id="profile">
                     <div class="material-icons">home</div>
-                    <div>Profile</div>
+                    <a href="#">Profile</a>
                 </div>
                 <div class="navs">
-                    <div>Featured</div>
-                    <div>About</div>
-                    <div>Join</div>
+                    <a href="#ingred">Ingredients</a>
+                    <a href="#inst">Instructions</a>
+                    <a href="#abt">About</a>
                 </div>
             </nav>
             <!-- THE SEARCH BAR OF OUR WEB APPLICATION -->
@@ -66,13 +66,13 @@
 
         <!-- CARD 2 FOR DISPLAYING THE INGREDIENTS -->
         <div class="card2">
-            <h1 class="topic">FOOD INGREDIENTS</h1>
+            <h1 id="ingred" class="topic">FOOD INGREDIENTS</h1>
             <ol type="1" id="ingredients"></ol>
         </div>
 
         <!-- CARD 3 FOR DISPLAYING COOKING INSTRUCTIONS -->
         <div class="card3">
-                <h1 class="topic">COOKING INSTRUCTIONS</h1>
+                <h1 id="inst" class="topic">COOKING INSTRUCTIONS</h1>
                 <div id="instructions"></div>
         </div>
     </main>
@@ -82,7 +82,9 @@
 
     <!-- FOOTER FOR OUR PAGE -->
     <footer>
-        <h1 style="color:var(--textcolor);">Recipe.Application</h1>
+        <h1 id="abt" style="color:var(--textcolor);">ABOUT</h1>
+        <p>A simple and clean web application <br>that allows users to search for meals and instantly get ingredients and cooking <br>instructions powered by <span style="color:gray;">TheMealDB API.</span></p>
+        <h1 style="color:var(--textcolor);">CONTACTS</h1>
         <p>Telephone:  +353 3464674</p>
         <p>Email:  recipee.app@gmail.com</p>
         <p>Website:  https/recipee/app/sercj/01</p>
