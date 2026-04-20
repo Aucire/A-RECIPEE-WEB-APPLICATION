@@ -23,6 +23,7 @@
                 linear-gradient(90deg, rgba(255, 255, 255, 0.05) 2px, transparent 1px);
             background-size: 70px 70px;
             min-height: 200vh;
+            transition: background 0.5s ease;
         }
         #profile{
             display:flex;
@@ -31,6 +32,16 @@
         }
         footer{
             font-family: "Playwrite IE", cursive;
+        }
+        select{
+            margin: 20px;
+            padding: 10px;
+            min-width: 300px;
+            outline: 0;
+            border-radius: 10px;
+            font-family: "Courgette", cursive;
+            font-size: 25px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -58,9 +69,12 @@
                 <input type="text" class="input" type="text" placeholder="search recipe">
                 <button id="btn"><span class="material-icons">search</span></button>
             </form>
-            <div id="error"></div>
+            <section id="error"></section>
+            <section class="heading">Browse our available recipes from thelist Below<br>select recipe of your choice from the dropdown list</section>
             <div class="name">
-                <section id="mealName"></section>
+                <select id="mealName">
+                    <option value="">Select recipee</option>
+                </select>
             </div>
         </div>
 
