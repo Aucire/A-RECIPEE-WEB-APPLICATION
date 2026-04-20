@@ -6,10 +6,11 @@ A simple and clean web application that allows users to search for meals and ins
 
 ## Features
 
--  Search any meal by name
+-  Search for any meal by name
+-  Meal Selection Dropdown when multiple matching meals are found
 -  Displays full list of ingredients with measurements
 -  Step-by-step cooking instructions
--  Error handling for invalid or empty searches
+-  Error handling for invalid, empty searches or no recipes found
 -  Clears previous results on every new search
 
 ---
@@ -50,7 +51,7 @@ git clone https://github.com/Aucire/RECIPEE-WEB-APPLICATION.git
 ```bash
 cd recipe-finder
 open index.html
-URL http://127.0.0.1:5500/recipe.html?
+[URL http://127.0.0.1:5500/recipe.html?](https://a-recipee-web-application.vercel.app/)
 ```
 
 Or simply double-click `index.html` to open it in your browser.
@@ -107,8 +108,7 @@ https://www.themealdb.com/api/json/v1/1/search.php?s={mealName}
 ## Known Limitations
 
 - Search is name-based only (no filter by ingredient or category)
-- Displays all matched meals — no pagination yet
-- Requires an internet connection to fetch from the API
+- Non-Responsive to medium/small screens
 
 ---
 
